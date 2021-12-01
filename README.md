@@ -185,6 +185,21 @@
 #### 2021
 <details>
 <summary>
+  "<a href="https://arxiv.org/abs/2107.14724">
+  Sparse-to-Dense Feature Matching: Intra and Inter domain Cross-modal Learning in Domain Adaptation for 3D Semantic Segmentation
+  </a>," <i>ICCV</i>
+</summary>
+<blockquote><p align="justify">
+  by <i>Duo Peng, Yinjie Lei, Wen Li, Pingping Zhang, and Yulan Guo</i>
+  
+  Domain adaptation is critical for success when confronting with the lack of annotations in a new domain. As the huge time consumption of labeling process on 3D point cloud, domain adaptation for 3D semantic segmentation is of great expectation. With the rise of multi-modal datasets, large amount of 2D images are accessible besides 3D point clouds. In light of this, we propose to further leverage 2D data for 3D domain adaptation by intra and inter domain cross modal learning. As for intra-domain cross modal learning, most existing works sample the dense 2D pixel-wise features into the same size with sparse 3D point-wise features, resulting in the abandon of numerous useful 2D features. To address this problem, we propose Dynamic sparse-to-dense Cross Modal Learning (DsCML) to increase the sufficiency of multi-modality information interaction for domain adaptation. For inter-domain cross modal learning, we further advance Cross Modal Adversarial Learning (CMAL) on 2D and 3D data which contains different semantic content aiming to promote high-level modal complementarity. We evaluate our model under various multi-modality domain adaptation settings including day-to-night, country-to-country and dataset-to-dataset, brings large improvements over both uni-modal and multi-modal domain adaptation methods on all settings.
+  
+</p></blockquote>
+</details>
+
+
+<details>
+<summary>
   "<a href="https://arxiv.org/abs/2107.11355">
   Unsupervised Domain Adaptive 3D Detection with Multi-Level Consistency
   </a>," <i>ICCV</i>
@@ -693,14 +708,14 @@
 #### 2021
 <details>
 <summary>
-  "<a href="https://arxiv.org/abs/2107.14724">
-  Sparse-to-Dense Feature Matching: Intra and Inter domain Cross-modal Learning in Domain Adaptation for 3D Semantic Segmentation
+  "<a href="https://arxiv.org/abs/2111.15242">
+  ConDA: Unsupervised Domain Adaptation for LiDAR Segmentation via Regularized Domain Concatenation
   </a>," <i>arXiv</i>
 </summary>
 <blockquote><p align="justify">
-  by <i>Duo Peng, Yinjie Lei, Wen Li, Pingping Zhang, and Yulan Guo</i>
+  by <i>Lingdong Kong, Niamul Quader, and Venice Erin Liong</i>
   
-  Domain adaptation is critical for success when confronting with the lack of annotations in a new domain. As the huge time consumption of labeling process on 3D point cloud, domain adaptation for 3D semantic segmentation is of great expectation. With the rise of multi-modal datasets, large amount of 2D images are accessible besides 3D point clouds. In light of this, we propose to further leverage 2D data for 3D domain adaptation by intra and inter domain cross modal learning. As for intra-domain cross modal learning, most existing works sample the dense 2D pixel-wise features into the same size with sparse 3D point-wise features, resulting in the abandon of numerous useful 2D features. To address this problem, we propose Dynamic sparse-to-dense Cross Modal Learning (DsCML) to increase the sufficiency of multi-modality information interaction for domain adaptation. For inter-domain cross modal learning, we further advance Cross Modal Adversarial Learning (CMAL) on 2D and 3D data which contains different semantic content aiming to promote high-level modal complementarity. We evaluate our model under various multi-modality domain adaptation settings including day-to-night, country-to-country and dataset-to-dataset, brings large improvements over both uni-modal and multi-modal domain adaptation methods on all settings.
+  Transferring knowledge learned from the labeled source domain to the raw target domain for unsupervised domain adaptation (UDA) is essential to the scalable deployment of an autonomous driving system. State-of-the-art approaches in UDA often employ a key concept: utilize joint supervision signals from both the source domain (with ground-truth) and the target domain (with pseudo-labels) for self-training. In this work, we improve and extend on this aspect. We present ConDA, a concatenation-based domain adaptation framework for LiDAR semantic segmentation that: (1) constructs an intermediate domain consisting of fine-grained interchange signals from both source and target domains without destabilizing the semantic coherency of objects and background around the ego-vehicle; and (2) utilizes the intermediate domain for self-training. Additionally, to improve both the network training on the source domain and self-training on the intermediate domain, we propose an anti-aliasing regularizer and an entropy aggregator to reduce the detrimental effects of aliasing artifacts and noisy target predictions. Through extensive experiments, we demonstrate that ConDA is significantly more effective in mitigating the domain gap compared to prior arts.
   
 </p></blockquote>
 </details>
