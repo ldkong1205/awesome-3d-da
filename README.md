@@ -3,7 +3,7 @@
 
 - Notations:
   - :fire: : Citations > 50
-  - :star: : GitHub starts > 100
+  - :star: : GitHub stars > 100
 
 - Tips: Click the **triangle** in front of the paper titles for more information
 
